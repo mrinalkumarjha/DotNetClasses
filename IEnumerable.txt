@@ -1,0 +1,11 @@
+IEnumerable<T> Interface :
+    Exposes the enumerator, which supports a simple iteration over a collection of a specified type. 
+    
+    We are able to loop on list because under the hood for each use use Getenumerator method of IEnumerable. Thats why foreach works on all collection
+    As all microsoft collection implement IEnumerable.
+    
+    Linq also use Ienumerable under the hood that is the reason linq can iterate through collection.
+    
+    ex: 
+    var x= from y in mycollection
+    
